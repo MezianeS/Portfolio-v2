@@ -8,15 +8,16 @@ import Services from './components/services/Services'
 import Portfolio from './components/portfolio/Portfolio'
 import Footer from './components/footer/Footer'
 
+
 const App = () => {
   return (
     <>
       <Header />
       <About />
-      <Contact />
-      <Portfolio />
       <Experience />
       <Services />
+      <Portfolio />
+      <Contact />
       <Footer />
     </>
   )
