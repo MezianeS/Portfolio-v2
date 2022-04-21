@@ -1,13 +1,10 @@
-.header__title {
-    text-align: center;
-}
-.header__title {
+header {
     height: 100vh;
     padding-top: 7rem;
     overflow: hidden;
 }
 
-.header__container {
+.header__title {
     text-align: center;
     height: 100%;
     position: relative;
