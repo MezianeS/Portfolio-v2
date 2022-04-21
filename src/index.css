@@ -42,7 +42,7 @@ body {
 }
 
 .container {
-    width: var(--container-width-lg);
+    width: var(--container-width-ms);
     margin: 0 auto;
 }
 
@@ -99,4 +99,25 @@ a:hover{
 .btn-primary{
     background: var(--color-primary);
     color: var(--color-bg);
+}
+
+
+/*********** MEDIA QUERIES (medium) ***************/
+@media screen and (min-width: 600px) {
+    /*ametre*/
+    .container {
+        width: var(--container-width-md)
+    }
+    
+}
+
+
+/*********** MEDIA QUERIES (long) ***************/
+
+@media screen and (min-width: 1024px) {
+    /*ametre*/
+    .container {
+        width: var(--container-width-lg)
+    }
+    
 }
