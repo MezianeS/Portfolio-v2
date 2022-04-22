@@ -103,8 +103,11 @@ a:hover{
 
 
 /*********** MEDIA QUERIES (medium) ***************/
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 648px) {
     /*ametre*/
+    header {
+        height: 70vh;
+    }
     .container {
         width: var(--container-width-md)
     }
