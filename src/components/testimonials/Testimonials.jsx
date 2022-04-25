@@ -21,7 +21,7 @@ const data = [
         id:0,
         name: 'Franccesca Buitoni',
         photo: Avatar1,
-        review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod reprehenderit fugit excepturi, blanditiis aperiam animi?',
+        review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod reprehenderit fugit excepturi, blanditiis aperiam animi? banditilis asperiagus aternarius. If setus equalus maltus assus ma queuss',
     },
     {
         id:1,
@@ -48,7 +48,7 @@ const Testimonials = () => {
         modules={[Pagination]}
         spaceBetween={40}
         slidesPerView={1}
-        pagination={{ clickable: true, el: '.swiper-pagination' }}>
+        pagination={{ clickable: true, }}>
             {
                 data.map(({id, name, photo, review}) => {
                     return (
@@ -61,10 +61,11 @@ const Testimonials = () => {
                                 {review}
                             </small>
                         </SwiperSlide>
+                        
                     )
                 })
             }
-            <div className="swiper-pagination"></div>
+            
         </Swiper>
     </section>
   )
