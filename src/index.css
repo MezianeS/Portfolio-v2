@@ -110,7 +110,7 @@ a:hover{
         height: 70vh;
     }
     .container {
-        width: var(--container-width-md)
+        width: var(--container-width-md);
     }
     
 }
@@ -121,7 +121,7 @@ a:hover{
 @media screen and (min-width: 1024px) {
     /*ametre*/
     .container {
-        width: var(--container-width-lg)
+        width: var(--container-width-lg);
     }
     
 }
