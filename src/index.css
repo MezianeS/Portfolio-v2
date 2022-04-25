@@ -56,7 +56,7 @@ h1 {
 
 section {
     margin-top: 8rem;
-    height: 100vh;
+    /* height: 100vh; d'après le tuto*/
 }
 section > h2, section > h5 {
     text-align: center;
@@ -122,6 +122,9 @@ a:hover{
     /*ametre*/
     .container {
         width: var(--container-width-lg);
+    }
+    section {
+        height: 100vh/* déplacé depuis section mais vu que mobile first > a supprimer si bug. */
     }
     
 }
