@@ -1,5 +1,6 @@
 .container.testimonials__container {
     width: var(--container-width-sm);
+    padding-bottom: 4rem;
 }
 
 .client__avatar {
@@ -31,6 +32,11 @@
     width: var(--container-width-sm)
 }
 
+.swiper-pagination-bullet .swiper-pagination-bullet{
+    background: var(--color-primary);
+
+}
+
 
 
 /*********** MEDIA QUERIES (medium) ***************/
@@ -51,6 +57,7 @@
 
     .container.testimonials__container {
         width: 40%;
+        padding-bottom: 3rem;
     }
 
 }
