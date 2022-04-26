@@ -21,8 +21,8 @@ footer a {
 .permalinks {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
+    flex-direction: column;
+    gap: 1.5rem;
     margin: 0 auto 3rem;
 }
 
@@ -30,7 +30,7 @@ footer a {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2.6rem;
 }
 
 .footer__socials a {
@@ -51,4 +51,25 @@ footer a {
 .footer__copyright {
     margin-bottom: 4rem;
     color: var(--color-bg);
+}
+
+
+
+/*********** MEDIA QUERIES (medium) ***************/
+@media screen and (min-width: 600px) {
+    .permalinks {
+        justify-content: center;
+        gap: 2rem;
+
+    }
+
+    .footer__socials {
+        margin-bottom: 4rem;
+    }
+}
+
+
+/*********** MEDIA QUERIES (long) ***************/
+
+@media screen and (min-width: 1024px) {   
 }
