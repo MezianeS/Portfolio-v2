@@ -8,5 +8,16 @@ _(Update de la v1)_
 
 Futur template utile et prise en main de nouvelles balises afin de pouvoir créer la v2 du portfolio.
 
+
+
+
+
+
+
+
+fix 1.0.2
+Ajout du nouveau texte.
+
+
 fix 1.0.1
 Changement des couleurs.
