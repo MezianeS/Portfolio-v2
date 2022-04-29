@@ -2,11 +2,15 @@ import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/portfolio1.jpg'
 import IMG2 from '../../assets/portfolio2.jpg'
+import IMG3 from '../../assets/portfolio3.jpg'
+import IMG4 from '../../assets/portfolio4.jpg'
+import IMG5 from '../../assets/portfolio5.jpg'
+import IMG7 from '../../assets/portfolio7.jpg'
 
 const data = [
   {
     id:7,
-    image: IMG1,
+    image: IMG7,
     title:'Whaleverse.cc, site vitrine pour un client ayant comme thème la vente de NFT (Non-fungible token).',
     github: 'https://github.com',
     demo: 'https://dribbble.com/shots/sdsqdsq'
@@ -20,21 +24,21 @@ const data = [
   },
   {
     id:5,
-    image: IMG1,
+    image: IMG5,
     title:'HONG KONG, projet personnel sur la photographie lors de mon séjour à Hong Kong.',
     github: 'https://github.com',
     demo: 'https://hongkong.mezianesofiane.com',
   },
   {
     id:4,
-    image: IMG1,
+    image: IMG4,
     title:"Billet simple pour l'alaska, livre en ligne sous forme d'article posté par l'écrivain.",
     github: 'https://github.com',
     demo: 'https://alaskaproject.mezianesofiane.com',
   },
   {
     id:3,
-    image: IMG1,
+    image: IMG3,
     title: "BIKESSELS, application web permettant la réservation d'un vélo à Bruxelles.",
     github: 'https://github.com',
     demo: 'https://bikessels.mezianesofiane.com',
