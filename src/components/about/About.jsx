@@ -38,7 +38,7 @@ const About = () => {
           </div>
 
           <p>
-            Jeune diplomé en développement web et vivant actuellement à Hong-Kong, je vis dans un monde aux possibilités infinies, préférant voir les choses non pas telles qu'elles sont mais telles qu'elles pourraient être.
+            Jeune diplomé en développement web et vivant actuellement à Hong Kong, je vis dans un monde aux possibilités infinies, préférant voir les choses non pas telles qu'elles sont mais telles qu'elles pourraient être.
             Prêt à construire le monde de demain en façonnant le web à ma façon.
           </p>
 

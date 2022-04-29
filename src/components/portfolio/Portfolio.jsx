@@ -1,6 +1,7 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/img1.jpg'
+import IMG1 from '../../assets/portfolio1.jpg'
+import IMG2 from '../../assets/portfolio2.jpg'
 
 const data = [
   {
@@ -20,7 +21,7 @@ const data = [
   {
     id:5,
     image: IMG1,
-    title:'HONG-KONG, projet personnel sur la photographie lors de mon séjour à Hong-Kong.',
+    title:'HONG KONG, projet personnel sur la photographie lors de mon séjour à Hong Kong.',
     github: 'https://github.com',
     demo: 'https://hongkong.mezianesofiane.com',
   },
@@ -40,7 +41,7 @@ const data = [
   },
   {
     id:2,
-    image: IMG1,
+    image: IMG2,
     title: "Projet effectué ayant comme thème l'office de tourisme de Strasbourg.",
     github: "https://github.com",
     demo: 'https://agence-strasbourg.mezianesofiane.com/',
