@@ -106,9 +106,9 @@ a:hover{
 /*********** MEDIA QUERIES (medium) ***************/
 @media screen and (min-width: 648px) {
     /*ametre*/
-    header {
+   /*  header {
         height: 70vh;
-    }
+    } */
     .container {
         width: var(--container-width-md);
     }
@@ -123,8 +123,7 @@ a:hover{
     .container {
         width: var(--container-width-lg);
     }
-    section {
-        height: 100vh/* déplacé depuis section mais vu que mobile first > a supprimer si bug. */
-    }
+    /* section {
+        height: 100vh/* déplacé depuis section mais vu que mobile first > a supprimer si bug} */
     
 }

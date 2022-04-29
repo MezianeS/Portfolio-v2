@@ -4,19 +4,54 @@ import IMG1 from '../../assets/img1.jpg'
 
 const data = [
   {
-    id:1,
+    id:7,
     image: IMG1,
-    title:'Crypto business dashboard & Financial Visualization',
+    title:'Whaleverse.cc, site vitrine pour un client ayant comme thème la vente de NFT (Non-fungible token).',
     github: 'https://github.com',
     demo: 'https://dribbble.com/shots/sdsqdsq'
   },
   {
-    id:2,
+    id:6,
     image: IMG1,
-    title:'Test business dashboad & Financial Visualization',
+    title:'Ancien portfolio mis-à-jour sous la version actuelle.',
     github: 'https://github.com',
     demo:'https://dribbble.com/shots/sdqsdq',
-  }
+  },
+  {
+    id:5,
+    image: IMG1,
+    title:'HONG-KONG, projet personnel sur la photographie lors de mon séjour à Hong-Kong.',
+    github: 'https://github.com',
+    demo: 'https://hongkong.mezianesofiane.com',
+  },
+  {
+    id:4,
+    image: IMG1,
+    title:"Billet simple pour l'alaska, livre en ligne sous forme d'article posté par l'écrivain.",
+    github: 'https://github.com',
+    demo: 'https://alaskaproject.mezianesofiane.com',
+  },
+  {
+    id:3,
+    image: IMG1,
+    title: "BIKESSELS, application web permettant la réservation d'un vélo à Bruxelles.",
+    github: 'https://github.com',
+    demo: 'https://bikessels.mezianesofiane.com',
+  },
+  {
+    id:2,
+    image: IMG1,
+    title: "Projet effectué ayant comme thème l'office de tourisme de Strasbourg.",
+    github: "https://github.com",
+    demo: 'https://agence-strasbourg.mezianesofiane.com/',
+  },
+  {
+    id:1,
+    image: IMG1,
+    title: "Premier prototype d'un passage d'une maquette au web (intégration web).",
+    github: "https://github.com",
+    demo: "https://webagency.mezianesofiane.com/",
+  },
 ]
 
 
