@@ -23,25 +23,23 @@ const About = () => {
             <article className="about__card">
                 <FaAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>3+ years working</small>
+              <small>6 months working</small>
             </article>
             <article className="about__card">
                 <FiUsers className='about__icon'/>
               <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <small>Worldwide</small>
             </article>
             <article className="about__card">
                 <VscFolderLibrary className='about__icon'/>
               <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <small>7+ Completed</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-            Voluptatem harum, quos deserunt fugit error corporis sunt eveniet 
-            possimus id nostrum fugiat ab expedita, recusandae aperiam doloribus 
-            sed pariatur laudantium veniam.
+            Jeune diplomé en développement web et vivant actuellement à Hong-Kong, je vis dans un monde aux possibilités infinies, préférant voir les choses non pas telles qu'elles sont mais telles qu'elles pourraient être.
+            Prêt à construire le monde de demain en façonnant le web à ma façon.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
